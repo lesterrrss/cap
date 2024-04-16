@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333; /* Example: Dark Background */
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    position: relative;
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(190, 190, 190);
+    overflow: hidden;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('your-hero-image.jpg'); /* Add your hero image */
+    background-size: cover;
+    color: #fff; 
+}
+
+.search-bar {
+    padding: 10px 15px;
+    width: 40%;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.action-button {
+    background-color: #007bff; /* Example Color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.dashboard {
+    padding: 40px;
+}
+
+.dashboard-card img{ 
+    background-color: #575757;
+    padding: 15px; /* Added more padding */
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    margin: 20px 20px 20px;
+}
+
+.dashboard-card__header {
+    border-bottom: 1px solid #eee; 
+    margin-bottom: 15px;
+} 
+
+.dashboard-card__title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dashboard-card__content img {
+    width: 20%;
+    height: 20%;
+}
+
+.dashboard-card__stats {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.dashboard-card__label {
+    color: #888; 
+}
+
+
+
+/* Button Hover Effects */
+.action-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2); /* Subtle lifted effect */
+} 
+
+/* Option 1: Button Scale */
+.action-button:hover {
+    transform: scale(1.05); /* Slightly increase size */
+} 
